@@ -45,7 +45,7 @@ font-family:verdana;
 	border: 5px solid #ff66cc;
 	font-size: 16px;
 	position:absolute;
-    transition: .5s ease;
-    top: 50%;
-    left: 50%;
+	transition: .5s ease;
+	top: 50%;
+	left: 50%;
 }
