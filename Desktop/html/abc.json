@@ -1,0 +1,3 @@
+function smth() {
+    alert("Ülesannet on tõepoolest hakatud lahendama");
+}

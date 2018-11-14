@@ -44,4 +44,8 @@ font-family:verdana;
 	padding: 14px 40px;
 	border: 5px solid #ff66cc;
 	font-size: 16px;
+	position:absolute;
+    transition: .5s ease;
+    top: 50%;
+    left: 50%;
 }
