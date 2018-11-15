@@ -49,3 +49,12 @@ font-family:verdana;
 	top: 50%;
 	left: 50%;
 }
+#button2{
+	background-color: #42cbf4;
+	text-align: center;
+	border: 3px solid #eb41f4;
+	font-size: 12px;
+	top: auto;
+	left: auto;
+	position: absolute;
+}

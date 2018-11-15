@@ -1,3 +1,6 @@
 function smth() {
     alert("Ülesannet on tõepoolest hakatud lahendama");
 }
+function asi() {
+    alert("See nupp töesti teeb midagi")
+}
