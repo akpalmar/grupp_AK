@@ -46,7 +46,7 @@ font-family:verdana;
 	font-size: 16px;
 	position:absolute;
 	transition: .5s ease;
-	top: 50%;
+	top: 10%;
 	left: 50%;
 }
 #button2{
