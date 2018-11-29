@@ -25,17 +25,16 @@ function addImage() {
 var counter = 0;
 function smth(){
 	counter+=0.1
-	for (i = 0; i < counter; i++) { 
+	for (i = 0; i < counter; i++) {
     addImage();
 	}
 }
 /*
 
 function sun() {
-	
+
 	see peaks looma classe päiksekiirte jaoks ning neile kaasa andma vastava stiili(mis nurga all)
-	
+
 	}
-	
-*/	
-	
+
+*/

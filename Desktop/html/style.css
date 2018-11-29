@@ -63,4 +63,65 @@ font-family:verdana;
     width: 100px;
     transition: 3s;
 }
-
+#küpsis{
+	text-align:center;
+	background-color: #d8b32d;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+}
+#chip {
+	position:absolute;
+  top: 170px;
+	left: 30px;
+  margin:50px;
+  padding:0px;
+  background-color:#726229;
+  height:13px;
+  width:13px;
+  border-radius:100%;
+}
+#chip2 {
+	position:absolute;
+  top: 140px;
+	left: 1px;
+  margin: 50px;
+  padding:0px;
+  background-color:#726229;
+  height:13px;
+  width:13px;
+  border-radius:100%;
+}
+#chip3 {
+	position:absolute;
+  top: 154px;
+	left: 50px;
+  margin:50px;
+  padding:0px;
+  background-color:#726229;
+  height:13px;
+  width:13px;
+  border-radius:100%;
+}
+#chip4 {
+	position:absolute;
+  top: 130px;
+	left: 45px;
+  margin:50px;
+  padding:0px;
+  background-color:#726229;
+  height:13px;
+  width:13px;
+  border-radius:100%;
+}
+#chip5 {
+	position:absolute;
+  top: 180px;
+	left: 5px;
+  margin:50px;
+  padding:0px;
+  background-color:#726229;
+  height:13px;
+  width:13px;
+  border-radius:100%;
+}
