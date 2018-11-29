@@ -4,11 +4,13 @@ function asi() {
 function k(){
 	window.location.href = "html.html";
 }
-
+function liigu() {
+    document.getElementById("kiisu").style.transform = "translate(" + Math.floor(Math.random() * (window.innerWidth - 100)) + "px, -" + Math.floor(Math.random() * (window.innerHeight - 100)) + "px)";
+}
 function addImage() {
 	var images = ["cupcake1", "cupcake2", "cupcake3","cupcake4", "lemon", "toast"]
 	var randImage = images[Math.floor(Math.random() * images.length)];
-    var x = document.createElement("IMG");
+    var x = document.createElement("img");
 
     x.setAttribute("src", "img/" + randImage + ".png");
     x.setAttribute("width", "50");
@@ -20,7 +22,6 @@ function addImage() {
 	x.style.top = Math.floor(Math.random() * (window.innerHeight - 50)) + "px";
     document.body.appendChild(x);
 }
-
 var counter = 0;
 function smth(){
 	counter+=0.1
@@ -28,3 +29,13 @@ function smth(){
     addImage();
 	}
 }
+/*
+
+function sun() {
+	
+	see peaks looma classe päiksekiirte jaoks ning neile kaasa andma vastava stiili(mis nurga all)
+	
+	}
+	
+*/	
+	

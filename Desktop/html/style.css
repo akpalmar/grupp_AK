@@ -27,7 +27,7 @@ background-color: #000000;
 background-color: #00ff00;
 }
 
-div {
+#div1 {
 padding:75px 20px;
 }
 
@@ -58,3 +58,9 @@ font-family:verdana;
 	left: auto;
 	position: absolute;
 }
+.Kass img{
+    position: absolute; /* vaba liikumine */
+    width: 100px;
+    transition: 3s;
+}
+
