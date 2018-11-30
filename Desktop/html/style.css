@@ -51,6 +51,7 @@ p{
 	}
 }
 #kassid{
+	z-index: 5;
     position: relative;
     animation-name: liigu;
     animation-duration: 30s;
