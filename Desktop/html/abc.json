@@ -4,6 +4,7 @@ function uuendaSkoori(){
 	counter+=1;
 	document.getElementById("skoor").innerHTML = counter;
 	if(counter % 2 == 0) Eksuspuroshion();
+	if(counter % 7 == 0) copycat();
 }
 
 function Eksuspuroshion(){
@@ -20,5 +21,17 @@ function kiisu(){
 	var x = document.createElement("img");
 	x.setAttribute("src", "img/neko.gif");
 	x.style.position = "absolute";
+	x.setAttribute("height", "50");
+	x.style.top = Math.floor(Math.random() * (window.innerHeight - 50)) + "px";
 	document.getElementById("kassid").appendChild(x);
 }
+
+function copycat(){
+	var x = document.getElementById("kassid").cloneNode(true);
+	x.setAttribute("src", "img/neko.gif");
+	x.style.position = "absolute";
+	x.setAttribute("height", "50");
+	x.style.top = Math.floor(Math.random() * (window.innerHeight - 50)) + "px";
+	document.body.appendChild(x);
+}
+

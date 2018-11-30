@@ -1,4 +1,6 @@
-body {
+body, html { 
+    overflow-x: hidden; 
+    overflow-y: auto;
 	user-select: none;
 }
 ul {
@@ -38,7 +40,30 @@ h1{
 p{
 	font-family:verdana;
 }
+@keyframes liigu {
+    0%{
+		left:2000px; 
+		top:100px;
+	}
+    100% {
+		left:900px;
+		top:100px;
+	}
+}
+#kassid{
+    position: relative;
+    animation-name: liigu;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
 
+/* Standard syntax */
+@keyframes liigu {
+    0%   {left:-100px;}
+    100% {left:6000px;}
+}
 #keskala {
 	z-index: 10;
 	position: absolute;
