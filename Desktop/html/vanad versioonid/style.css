@@ -1,0 +1,66 @@
+ul {
+list-style-type: none;
+position: fixed;
+width: 100%;
+padding: 0;
+background-color: #000000;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+padding: 10px 10px;
+text-align: center;
+color: #ffffff;
+text-decoration:none;
+font-family: verdana;
+}
+
+li a:hover{
+background-color: #000000;
+}
+
+.active {
+background-color: #00ff00;
+}
+
+#div1 {
+padding:75px 20px;
+}
+
+h1{
+font-family:verdana;
+}
+
+p{
+font-family:verdana;
+}
+#button1{
+	background-color: #ffccff;
+	text-align:center;
+	padding: 14px 40px;
+	border: 5px solid #ff66cc;
+	font-size: 16px;
+	position:absolute;
+	transition: .5s ease;
+	top: 10%;
+	left: 50%;
+}
+#button2{
+	background-color: #42cbf4;
+	text-align: center;
+	border: 3px solid #eb41f4;
+	font-size: 12px;
+	top: auto;
+	left: auto;
+	position: absolute;
+}
+.Kass img{
+    position: absolute; /* vaba liikumine */
+    width: 100px;
+    transition: 3s;
+}
+

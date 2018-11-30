@@ -23,27 +23,19 @@ function addImage() {
     document.body.appendChild(x);
 }
 var counter = 0;
-function uuendaSkoori(){
-	counter+=1
-	document.getElementById("skoor").innerHTML = counter;
-	if (counter != 0 && counter % 2 == 0 ) explosion();
+function smth(){
+	counter+=0.1
+	for (i = 0; i < counter; i++) { 
+    addImage();
+	}
 }
+/*
 
-function explosion(){
-	var x = document.createElement("img");
-	x.setAttribute("src", "img/Eksuspuroshion!!!.gif");
-	x.style.position = "absolute";
-	x.style.transform = "scale(0.3) translate(-" + Math.random() * (window.innerWidth) + "px, -" + Math.random() * (window.innerHeight) + "px)";
-	x.setAttribute("pointer-events", "none");
-	x.setAttribute("user-select", "none");
-	document.body.appendChild(x);
-}
-function kiisu(){
-	var x = document.createElement("img");
-	x.setAttribute("src", "img/neko.gif");
-	x.style.position = "absolute";
-	x.style.transform = "scale(0.3) translate(" + 100* counter + "px)";
-	x.setAttribute("pointer-events", "none");
-	x.setAttribute("user-select", "none");
-	document.getElementById("kassid").appendChild(x);
-}
+function sun() {
+	
+	see peaks looma classe päiksekiirte jaoks ning neile kaasa andma vastava stiili(mis nurga all)
+	
+	}
+	
+*/	
+	

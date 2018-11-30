@@ -1,42 +1,39 @@
 ul {
-list-style-type: none;
-position: fixed;
-width: 100%;
-padding: 0;
-background-color: #000000;
+	list-style-type: none;
+	position: fixed;
+	width: 100%;
+	padding: 0;
+	background-color: #000000;
 }
 
 li {
-float: left;
+	float: left;
 }
 
 li a {
-display: block;
-padding: 10px 10px;
-text-align: center;
-color: #ffffff;
-text-decoration:none;
-font-family: verdana;
+	display: block;
+	padding: 10px 10px;
+	text-align: center;
+	color: #ffffff;
+	text-decoration:none;
+	font-family: verdana;
 }
 
 li a:hover{
-background-color: #000000;
+	background-color: #000000;
 }
 
 .active {
-background-color: #00ff00;
-}
-
-#div1 {
-padding:75px 20px;
+	background-color: #00ff00;
 }
 
 h1{
-font-family:verdana;
+	font-family:verdana;
+	text-align: center;
 }
 
 p{
-font-family:verdana;
+	font-family:verdana;
 }
 #button1{
 	background-color: #ffccff;
@@ -63,6 +60,14 @@ font-family:verdana;
     width: 100px;
     transition: 3s;
 }
+
+#div1 {
+	z-index: 10;
+	position: absolute;
+	padding:75px 30px;
+	left: 40%;
+	top: 40%;
+}
 #küpsis{
 	text-align:center;
 	background-color: #d8b32d;
@@ -72,14 +77,14 @@ font-family:verdana;
 }
 #chip {
 	position:absolute;
-  top: 170px;
+	top: 170px;
 	left: 30px;
-  margin:50px;
-  padding:0px;
-  background-color:#726229;
-  height:13px;
-  width:13px;
-  border-radius:100%;
+	margin:50px;
+	padding:0px;
+	background-color:#726229;
+	height:13px;
+	width:13px;
+	border-radius:100%;
 }
 #chip2 {
 	position:absolute;
