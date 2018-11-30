@@ -1,49 +1,24 @@
-function asi() {
-    alert("See nupp töesti teeb midagi")
-}
-function k(){
-	window.location.href = "html.html";
-}
-function liigu() {
-    document.getElementById("kiisu").style.transform = "translate(" + Math.floor(Math.random() * (window.innerWidth - 100)) + "px, -" + Math.floor(Math.random() * (window.innerHeight - 100)) + "px)";
-}
-function addImage() {
-	var images = ["cupcake1", "cupcake2", "cupcake3","cupcake4", "lemon", "toast"]
-	var randImage = images[Math.floor(Math.random() * images.length)];
-    var x = document.createElement("img");
-
-    x.setAttribute("src", "img/" + randImage + ".png");
-    x.setAttribute("width", "50");
-    x.setAttribute("height", "50");
-	x.setAttribute("pointer-events", "none");
-	x.setAttribute("user-select", "none");
-	x.style.position = "absolute";
-	x.style.left = Math.floor(Math.random() * (window.innerWidth - 50)) + "px";
-	x.style.top = Math.floor(Math.random() * (window.innerHeight - 50)) + "px";
-    document.body.appendChild(x);
-}
 var counter = 0;
+
 function uuendaSkoori(){
-	counter+=1
+	counter+=1;
 	document.getElementById("skoor").innerHTML = counter;
-	if (counter != 0 && counter % 2 == 0 ) explosion();
+	if(counter % 2 == 0) Eksuspuroshion();
 }
 
-function explosion(){
+function Eksuspuroshion(){
 	var x = document.createElement("img");
 	x.setAttribute("src", "img/Eksuspuroshion!!!.gif");
 	x.style.position = "absolute";
-	x.style.transform = "scale(0.3) translate(-" + Math.random() * (window.innerWidth) + "px, -" + Math.random() * (window.innerHeight) + "px)";
-	x.setAttribute("pointer-events", "none");
-	x.setAttribute("user-select", "none");
+	x.setAttribute("width", "50");
+    x.setAttribute("height", "50");
+	x.style.left = Math.floor(Math.random() * (window.innerWidth - 50)) + "px";
+	x.style.top = Math.floor(Math.random() * (window.innerHeight - 50)) + "px";
 	document.body.appendChild(x);
 }
 function kiisu(){
 	var x = document.createElement("img");
 	x.setAttribute("src", "img/neko.gif");
 	x.style.position = "absolute";
-	x.style.transform = "scale(0.3) translate(" + 100* counter + "px)";
-	x.setAttribute("pointer-events", "none");
-	x.setAttribute("user-select", "none");
 	document.getElementById("kassid").appendChild(x);
 }
